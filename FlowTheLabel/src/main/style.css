@@ -1,0 +1,125 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.body {
+	font-family: Arial, Verdana;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+	width: 100%!important;
+	height: 100%!important;
+}
+
+b {
+	text-align: center;
+}
+
+.main {
+	border: none; 
+	width:100%;
+	height:100%;
+}	
+
+.second {
+	width: 680px;
+	background-color: #dfd4be;
+	background-image: url('https://res.cloudinary.com/dktdw8fyj/image/upload/v1547990002/Flow%20the%20Label/static/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.pre-container {
+	padding-bottom: 55px;
+}
+
+.container {
+	background-color: #FFFFFF;
+	max-width: 100%;
+	width: 454px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 55px;
+  	padding-right: 35px;
+  	padding-left: 35px;
+	margin-bottom: 55px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+.logo-img {
+	width: 134px;
+	padding-bottom: 23px;
+}
+
+.logo-link {
+    display: block;
+    width: 134px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greeting {
+	width: 152px;
+	padding-bottom: 20px;
+}
+
+.descr1 {
+	width: 407px;
+	padding-bottom: 20px;
+}
+
+.img1 {
+	width: 365px;
+	padding-bottom: 20px;
+}
+
+.with{
+	width: 47px;
+	padding-bottom: 15px;
+}
+
+.descr2 {
+	width: 369px;
+	padding-bottom: 25px;
+}
+
+.gif {
+	width: 365px;
+	padding-bottom: 13px;
+}
+
+.promocode {
+	width: 253px;
+	padding-bottom: 10px;
+}
+
+.promocode-name {
+	font-family: Arial, Verdana;
+	font-size: 15px;
+	color: black;
+	display: inline-block;
+	padding-bottom: 20px;
+}
+
+.btn {
+	display: block;
+	width: 172px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.discount {
+	width: 172px;
+}
+

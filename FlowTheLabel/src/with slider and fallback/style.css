@@ -1,0 +1,240 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.body {
+	font-family: Verdana;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+	width: 100%!important;
+	height: 100%!important;
+}
+
+b {
+	text-align: center;
+}
+
+.main {
+	border: none; 
+	width:100%;
+	height:100%;
+}	
+
+.second {
+	width: 680px;
+	background-color: #dfd4be;
+	background-image: url('https://res.cloudinary.com/dktdw8fyj/image/upload/v1547664582/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.pre-container {
+	padding-bottom: 55px;
+}
+
+.container {
+	background-color: #FFFFFF;
+	max-width: 100%;
+	width: 365px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 55px;
+  padding-right: 80px;
+  padding-left: 80px;
+	margin-bottom: 55px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+.logo-img {
+	width: 134px;
+	padding-bottom: 28px;
+}
+
+.logo-link {
+    display: block;
+    width: 134px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greeting {
+	width: 101px;
+	padding-bottom: 22px;
+}
+
+.descr1 {
+	width: 362px;
+	padding-bottom: 25px;
+}
+
+.img1 {
+	padding-bottom: 48px;
+	width: 365px;
+}
+
+.title2 {
+	width: 47px;
+	padding-bottom: 15px;
+}
+
+.descr2 {
+	width: 363px;
+	padding-bottom: 25px;
+}
+
+.skirt {
+	width: 365px;
+	padding-bottom: 13px;
+}
+
+.promocode {
+	width: 236px;
+	padding-bottom: 10px;
+}
+
+.promocode-name {
+	font-family: Arial, Verdana;
+	font-size: 15px;
+	color: black;
+	text-transform: uppercase;
+	display: inline-block;
+	padding-bottom: 20px;
+}
+
+.discount {
+	width: 172px;
+	padding-bottom: 50px;
+}
+
+    input{
+      display: none;
+    }
+    @media screen and (max-width:9999px){
+      .cboxcheck:checked + input + * .thumb-carousel{
+        height: auto !important;
+        max-height:none!important;
+        max-width:none!important;
+        line-height:0;
+      }
+		
+		.car-content {
+			padding-bottom: 15px;
+		}
+
+      .thumb-carousel span {
+        font-size:0;
+        line-height:0;
+      }
+      
+      .cboxcheck:checked + input + * .thumb-carousel .car-content{
+        display:none;
+        max-height:0px;
+        overflow:hidden;
+      }
+      .cbox0:checked + * .content-1,
+      .thumb-carousel .cbox1:checked + span .content-1,
+      .thumb-carousel .cbox2:checked + span .content-2,
+      .thumb-carousel .cbox3:checked + span .content-3,
+      .thumb-carousel .cbox4:checked + span .content-4,
+      .thumb-carousel .cbox5:checked + span .content-5 
+      {
+        display:block!important;
+        max-height:none!important;
+        overflow:visible!important;
+      }
+      
+
+      .thumb-carousel .thumb {
+        cursor:pointer;
+        display:inline-block !important;
+        width: 15px;
+        height: 15px;
+        margin-right: 15px;
+        border-radius: 50%;
+        background-color: #eaeaea;
+      }
+
+      /* hide for thunderbird as it doesn't support checkbox toggling */
+      .moz-text-html .thumb {
+        display:none !important;
+      }
+      .thumb-carousel .thumb:hover{
+
+      }
+      .cbox0:checked + * .thumb-1,
+      .thumb-carousel .cbox1:checked + span .thumb-1,
+      .thumb-carousel .cbox2:checked + span .thumb-2,
+      .thumb-carousel .cbox3:checked + span .thumb-3,
+      .thumb-carousel .cbox4:checked + span .thumb-4,
+      .thumb-carousel .cbox5:checked + span .thumb-5 
+      {
+        width: 10px;
+        height: 10px;
+        background-color: #b4b4b4;
+      }
+
+      .thumb-carousel .thumb img{
+        width:100%;
+        height: auto;
+      }
+      .thumb-carousel img{
+        max-height: none !important;
+      }      
+      .cboxcheck:checked + input + * .fallback{
+        display:none !important;
+        display:none;
+        max-height: 0px;
+        height: 0px;
+        overflow: hidden;
+      }
+    }
+
+    @media screen and (max-width:680px){
+      .car-table.responsive,
+      .car-table.responsive .thumb-carousel,
+      .car-table.responsive .thumb-carousel .car-content img,
+      .car-table.responsive .fallback .car-content img
+       {
+        width:100% !important;
+        height:auto;        
+       }
+    }   
+    .car-table {
+    	margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    } 
+
+    /* Hide interactive from Yahoo! Mail iOS since it doesn't support nested label interactivity */
+    .yfix{}
+    @media screen yahoo and (max-width:680px){
+      .thumb-carousel{
+        display:none!important;
+      }
+      .fallback{
+        display:block!important;
+        height:auto!important;
+        max-height:none!important;
+        width: 365px;
+      }
+      .fallback-img {
+        width: 365px;
+        padding-bottom: 15px;
+        padding-right: 45px;
+        padding-left: 45px;
+      }
+    }
+
+

@@ -1,0 +1,148 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.body {
+	font-family: Verdana;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	width: 100%!important;
+	height: 100%!important;
+	color: #000;
+}
+
+b {
+	text-align: center;
+}
+
+.prata {
+	font-family: "Prata", Verdana;
+	font-size: 15px;
+	color: black;
+}
+
+.karla {
+	font-family: "Karla", Verdana;
+	font-size: 15px;
+	color: black;
+}
+
+.main {
+	border: none; 
+	width:100%;
+	height:100%;
+}	
+
+.second {
+	width: 680px;
+	background-color: #dfd4be;
+	background-image: url('https://res.cloudinary.com/dktdw8fyj/image/upload/v1547664582/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.pre-container {
+	padding-bottom: 55px;
+}
+
+.container {
+	background-color: #ffffff;
+	max-width: 100%;
+	width: 525px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.container-div {
+	text-align: center;
+	width: 100%;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.logo-link {
+    display: block;
+    width: 134px;
+    margin: 0 auto;
+}
+
+.logo-img {
+	width: 134px;
+	padding-bottom: 28px;
+}
+
+.name {
+	font-family: "Prata", Verdana;
+	display: inline-block;
+	padding-bottom: 22px;
+	font-size: 20px;
+	color: black;
+}
+
+.descr1 {
+	font-family: "Karla", Verdana;
+	display: inline-block;
+	font-size: 15px;
+	color: black;
+	padding-bottom: 22px;
+	width: 365px;
+	line-height: 20px;
+}
+
+.img1 {
+	margin-bottom: 20px;
+	width: 365px;
+}
+
+.title2 {
+	font-family: "Prata", Verdana;
+	font-size: 15px;
+	display: inline-block;
+	color: black;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+.descr2 {
+	font-family: "Karla", Verdana;
+	display: inline-block;
+	font-size: 15px;
+	width: 365px;
+	padding-bottom: 25px;
+	line-height: 20px;
+	color: #454545;
+}
+
+.skirt {
+	width: 365px;
+	padding-bottom: 13px;
+}
+
+.promocode {
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
+.promocode-name {
+	display: inline-block;
+	padding-bottom: 15px;
+}
+
+.discount {
+	width: 172px;
+	padding-bottom: 50px;
+}
